@@ -6,3 +6,7 @@ var typed=new Typed(".text",{
     backDelay: 1000,
     loop: true
 })
+document.getElementById("redirectButton").onclick = function() {
+    // Replace 'newpage.html' with the URL of the page you want to redirect to
+    window.location.href = 'newpage.html';
+};
